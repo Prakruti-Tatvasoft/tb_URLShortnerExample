@@ -1,0 +1,15 @@
+id: QmbnaGTn9AwFggwgBs51FPwKQMF2JfJqZpD5kw8MAEzFXH
+description: ""
+tags: []
+source: .
+trigger:
+    type: https
+    method: GET
+    paths:
+        - /r
+domains:
+    - ShortenDomain
+execution:
+    timeout: 10s
+    memory: 10MB
+    call: redirect

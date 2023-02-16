@@ -1,0 +1,15 @@
+id: QmSF9gRxNYktUNePRj4qJnjFZ54muJ9wBfnTpoZiimgmhe
+description: ""
+tags: []
+source: .
+trigger:
+    type: https
+    method: GET
+    paths:
+        - /shorten
+domains:
+    - ShortenDomain
+execution:
+    timeout: 10s
+    memory: 10MB
+    call: shorten
