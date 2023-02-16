@@ -4,7 +4,7 @@ tags: []
 source: .
 trigger:
     type: https
-    method: GET
+    method: POST
     paths:
         - /shorten
 domains:
