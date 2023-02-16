@@ -5,7 +5,7 @@ domains:
     - ShortenDomain
 source:
     paths:
-        - /d
+        - /
     branch: main
     github:
         id: 602384212
